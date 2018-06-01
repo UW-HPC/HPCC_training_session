@@ -6,9 +6,6 @@
 #PBS -l nodes=1:ppn=16,mem=10gb,feature=16core,walltime=1:00:00
 
 
-## Put the output from jobs into the below directory
-#PBS -o /usr/lusers/xsqin/hello_world
-
 ## Put both the stderr and stdout into a single file
 #PBS -j oe
 
